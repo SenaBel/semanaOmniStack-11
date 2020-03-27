@@ -20,7 +20,7 @@ module.exports = {
         return res.json(incidents)
   },
 
-  // METHOD TO CREATE INCIDENTS
+    // METHOD TO CREATE INCIDENTS
     async create(req, res) {
         const { titulo, description, value } = req.body
         const ong_id = req.headers.authorization
