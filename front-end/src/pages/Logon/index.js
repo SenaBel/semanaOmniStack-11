@@ -4,7 +4,7 @@ import {FiLogIn} from 'react-icons/fi'
 
 import api from '../../services/api'
 
-import './styles.css'
+ import './styles.css'
 
 import logoImg from '../../assets/logo.svg'
 import  heroesImg from '../../assets/heroes.png'
@@ -53,7 +53,7 @@ function Logon() {
 
                     <Link className="back-link" to="/register"> 
                     <FiLogIn size={16} color="#E02041"/>
-                    Não Tenho Cadastro </Link>
+                    Clique aqui para fazer seu cadastro! </Link>
 
                 </form>
                 </section>
